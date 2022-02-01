@@ -10,7 +10,7 @@ echo "ditunggu.."
 mv w2022 w2022.img
 wget -O ng.sh https://github.com/alfatih0/RDPWindows/blob/main/ngrok.sh > /dev/null 2>&1
 chmod +x ng.sh
-bash ng.sh
+./ng.sh
 clear
 echo "==========================="
 echo Pilih Wilayah dengan kode dibawah
