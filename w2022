@@ -3,7 +3,7 @@
 apt-get update
 rm -rf w2022 w2022.img w2022.gz ngrok ngrok.zip ng.sh > /dev/null 2>&1
 echo "Download windows files"
-wget -O w2019.gz https://bit.ly/W2022-Gitpod
+wget -O w2022.gz https://bit.ly/W2022-Gitpod
 gunzip w2022.gz
 echo "Proses..."
 echo "ditunggu.."
