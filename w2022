@@ -8,7 +8,7 @@ gunzip w2022.gz
 echo "Proses..."
 echo "ditunggu.."
 mv w2022 w2022.img
-wget -O ng.sh https://github.com/alfatih0/RDPWindows/blob/main/ngrok.sh > /dev/null 2>&1
+wget -O ng.sh https://raw.githubusercontent.com/alfatih0/RDPWindows/main/ngrok.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 clear
